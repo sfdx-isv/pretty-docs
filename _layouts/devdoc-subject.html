@@ -81,16 +81,17 @@ layout: compress
                     <!-- PAGE_INTRO -->
                     <div class="intro">{{ content }}</div>
 
-                    <!-- PAGE_LAST_MODIFIED_DATE -->
-                    {% if page.date %}
-                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: {{ page.date | date: '%B %d, %Y' }}</div>
-                    {% endif %}
 
 
                 </div>
 
                 <!-- NAV_CARDS -->
                 {% include navigation.html navigation=page.navigation %}
+
+                <!-- PAGE_LAST_MODIFIED_DATE -->
+                {% if page.date %}
+                <div class="meta"><i class="fa fa-clock-o"></i> Last updated: {{ page.date | date: '%B %d, %Y' }}</div>
+                {% endif %}
 
             </div>
         </section>
