@@ -1,0 +1,13 @@
+{% if include.breadcrumbs %}
+    <ol class="breadcrumb">
+        {% for breadcrumb in include.breadcrumbs %}
+            <li><a href="{{ breadcrumb.path | prepend: site.baseurl }}">{{ breadcrumb.title }}</a></li>
+        {% endfor %}
+        <li class="active">{{ page.title }}</li>
+  </ol>
+{% else %}
+    <ol class="breadcrumb">
+        <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+        <li class="active">{{ page.title }}</li>
+    </ol>
+{% endif %}
