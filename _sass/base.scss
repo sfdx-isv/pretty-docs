@@ -46,7 +46,7 @@ a {
 code {
     background: #222;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     padding:2px 8px;
@@ -57,7 +57,7 @@ code {
 .btn, a.btn {
     @include transition (all 0.4s ease-in-out);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     .fa {
         margin-right: 5px;
