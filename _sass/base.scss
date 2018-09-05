@@ -214,7 +214,7 @@ select {
     text-transform: uppercase;
     margin-bottom: 10px;
     .logo {
-        font-size: 40px;
+        font-size: 54px; //40px;
         margin-top: 0;
         margin-bottom: 0;
         a {
@@ -247,7 +247,7 @@ select {
         color: #fff;
     }
     .icon {
-        font-size: 34px;
+        font-size: 42px; //34px;
         color: $color-primary;
         .body-green & {
             color: $color-green;

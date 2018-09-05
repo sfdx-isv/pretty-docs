@@ -13,7 +13,7 @@
     .doc-title {
         color: $color-primary;
         margin-top: 0;
-        font-size: 36px;
+        font-size: 50px; //36px;
         .body-green & {
             color: $color-green;
         }
@@ -34,7 +34,7 @@
         }
     }
     .icon {
-        font-size: 30px;
+        font-size: 40px; //30px;
     }
     .meta {
         color: $grey;
