@@ -42,7 +42,7 @@
 }
 
 .doc-content {
-    margin-left: 230px;
+    margin-left: 300px; //230px;
 }
 
 
@@ -152,14 +152,14 @@
         }
     }
     .icon-holder {
-        font-size: 30px;
+        font-size: 50px; //30px;
         position: absolute;
-        left: 30px;
-        top: 30px;
+        left: 20px; //30px;
+        top: 20px; //30px;
         color: rgba(0, 0, 0, 0.25);
     }
     .content {
-        margin-left: 60px;
+        margin-left: 70px; //60px;
         p {
             &:last-child {
                 margin-bottom: 0;
@@ -505,7 +505,7 @@
     padding-left: 0;
     & > li {
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 16px; //12px;
         &:first-child {
             padding-top: 5px;
         }
@@ -572,7 +572,7 @@
 .affix-top {
   position: absolute;
   top: 15px;
-  width: 230px;
+  width: 270px; //230px;
 }
 
 .affix {
@@ -581,7 +581,7 @@
 
 .affix,
 .affix-bottom {
-  width: 230px;
+  width: 270px; //230px
 }
 
 .affix-bottom {
